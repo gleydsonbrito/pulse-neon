@@ -1,0 +1,30 @@
+body {
+  background-color: #224B0C;
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  transition: .5s;
+  animation-name: show;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes show {
+  0% {}
+  50% { text-shadow: 
+    0 0 5px #3CCF4E,
+    0 0 25px #3CCF4E,
+    0 0 50px #3CCF4E,
+    0 0 100px #3CCF4E;}
+  100% {}
+}
