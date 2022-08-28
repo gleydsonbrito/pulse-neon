@@ -17,8 +17,6 @@ h1 {
   animation-iteration-count: infinite;
 }
 
-
-
 @keyframes show {
   0% {}
   50% { text-shadow: 
@@ -27,4 +25,8 @@ h1 {
     0 0 50px #3CCF4E,
     0 0 100px #3CCF4E;}
   100% {}
+}
+
+img {
+  width: 28%;
 }
